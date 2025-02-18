@@ -7,7 +7,7 @@ export default class Manatoki extends GnuBoard5BootstrapBasic2 {
         super.id = 'manatoki';
         super.label = 'Manatoki';
         this.tags = [ 'manga', 'webtoon', 'korean' ];
-        this.url = 'https://manatoki.net';
+        this.url = 'https://manatoki468.net';
 
         this.path = [ '/webtoon', '/comic' ];
         this.queryMangasPageCount = 'div.list-page ul.pagination li:last-child a';
